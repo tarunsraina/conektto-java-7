@@ -1,0 +1,31 @@
+{
+  "name": "TblClmClaimsMaster",
+  "fields": [
+    {
+      "fieldName": "cmDateReceived",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "cmClaimStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cmClaimNumber",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "tbl_clm_claims_master",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["P7"],
+  "microserviceName": "P7",
+  "clientRootFolder": "P7",
+  "databaseType": "sql",
+  "changelogDate": "20210812164345"
+}
